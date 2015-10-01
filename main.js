@@ -13,7 +13,7 @@ var htmlList = ['header.html', 'section.html'];
 
 
 animate = false;
-
+animate_2 = false;
 var compare = function() {
 	if(animate && animate_2){
 		console.log('ok');
