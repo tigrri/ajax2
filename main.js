@@ -14,7 +14,7 @@ var htmlList = ['header.html', 'section.html'];
 animate = false;
 
 var compare = function() {
-	if(animate){
+	if(animate && animate_2){
 		console.log('1');
 	}
 }
@@ -26,6 +26,19 @@ $.ajax({
     compare();
   },
   error: function(data) {
+  	animate = false;
+    console.error(data);
+  }
+});
+$.ajax({
+    url: 'http://tigrri.github.io/ajax2/section.html',
+  success: function(data) {
+    $('.wrapper').append(data);
+    animate_2 = true;
+    compare();
+  },
+  error: function(data) {
+  	animate_2 = false;
     console.error(data);
   }
 });
