@@ -13,13 +13,17 @@ var htmlList = ['header.html', 'section.html'];
 
 animate = false;
 
-
+var compare = function() {
+	if(animate){
+		console.log('1');
+	}
+}
 $.ajax({
     url: 'http://tigrri.github.io/ajax2/header.html',
   success: function(data) {
     $('.wrapper').append(data);
     animate = true;
-    // compare();
+    compare();
   },
   error: function(data) {
     console.error(data);
