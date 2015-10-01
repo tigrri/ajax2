@@ -6,9 +6,6 @@ var someDeffered = $.ajax(headUrl + htmlList[0]);
 	    $('.wrapper').append(result);
 	    return $.ajax(headUrl + htmlList[1])
 	}).then(function(result){
-	    console.log(JSON.stringify(result));
 	    $('.wrapper').append(result);
 	    return $.ajax(headUrl + htmlList[2])
-	}).then(function(result) {
-		$('.wrapper').append(result);
 	});
