@@ -1,4 +1,4 @@
-var headUrl = 'http://bi0morph.github.io/ajax2/';
+var headUrl = 'http://tigrri.github.io/ajax2/';
 var htmlList = ['header.html', 'section.html'];
 
 var someDeffered = $.ajax(headUrl + htmlList[0]);
