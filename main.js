@@ -9,8 +9,8 @@ animate_2 = false;
 var compare = function() {
 	if(animate && animate_2){
 		console.log('ok');
-		$('.section').animate({left: "220px"}, 400);
-		$('.header').animate({left: "220px"}, 400);
+		$('.section').animate({left: "220px"}, 1400);
+		$('.header').animate({left: "220px"}, 1400);
 	}
 }
 $.ajax({
