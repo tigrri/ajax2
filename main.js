@@ -1,4 +1,3 @@
-
 var headUrl = 'http://tigrri.github.io/ajax2/';
 var htmlList = ['header.html', 'section.html'];
 
