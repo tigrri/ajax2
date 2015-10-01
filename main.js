@@ -19,7 +19,7 @@ var compare = function() {
 	}
 }
 $.ajax({
-    url: 'http://tigrri.github.io/ajax2/header.html',
+    url: headUrl + 'header.html',
   success: function(data) {
     $('.wrapper').append(data);
     animate = true;
@@ -31,7 +31,7 @@ $.ajax({
   }
 });
 $.ajax({
-    url: 'http://tigrri.github.io/ajax2/section.html',
+    url: headUrl + 'section.html',
   success: function(data) {
     $('.wrapper').append(data);
     animate_2 = true;
