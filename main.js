@@ -1,3 +1,4 @@
+
 var headUrl = 'http://tigrri.github.io/ajax2/';
 var htmlList = ['header.html', 'section.html'];
 
@@ -44,5 +45,3 @@ $.ajax({
     console.error(data);
   }
 });
-Status API Training Shop Blog About Pricing
-© 2015 GitHub, Inc. Terms Privacy Security Contact Help
