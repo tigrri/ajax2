@@ -1,17 +1,4 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @tigrri
- Unwatch 1
-  Star 0
- Fork 0 tigrri/ajax2
-Branch: gh-pages  ajax2/main.js
-@tigrritigrri 2 minutes ago Update main.js
-1 contributor
-RawBlameHistory     45 lines (40 sloc)  942 Bytes
+
 var headUrl = 'http://tigrri.github.io/ajax2/';
 var htmlList = ['header.html', 'section.html'];
 
