@@ -8,8 +8,8 @@ animate_2 = false;
 var compare = function() {
 	if(animate && animate_2){
 		console.log('ok');
-		$('.section').animate({right: "50%"}, 1400);
-		$('.header').animate({left: "50%"}, 1400);
+		$('.section').animate({right: "49%"}, 1400);
+		$('.header').animate({left: "49%"}, 1400);
 	}
 }
 $.ajax({
